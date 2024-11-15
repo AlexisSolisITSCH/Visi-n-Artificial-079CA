@@ -8,11 +8,15 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 
 class Inicio : AppCompatActivity() {
 
     private lateinit var Btn_ir_registros : Button
     private lateinit var Btn_ir_logeo: Button
+
+    var firebaseUser : FirebaseUser?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,5 +41,19 @@ class Inicio : AppCompatActivity() {
             Toast.makeText(applicationContext, "Login", Toast.LENGTH_SHORT).show()
             startActivity(intent)
         }
+    }
+
+    private fun ComprobarSesion(){
+        firebaseUser = FirebaseAuth.getInstance().currentUser
+        if (firebaseUser != null){
+            val intent = Intent(this@Inicio, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+    }
+
+    override fun onStart() {
+        ComprobarSesion()
+        super.onStart()
     }
 }
