@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Register App</string>
+    <string name="nombre_equipo">IA 079CA</string>
+
+    <string name="Btn_ir_registros">Registrarme</string>
+    <string name="Btn_ir_logeo">Ingresar</string>
+
+    <string name="R_Et_nombre_usuario">Nombre de usuario</string>
+    <string name="R_Et_email">Correo electronico</string>
+    <string name="R_Et_password">Contraseña</string>
+    <string name="R_Et_r_password">Repetir Contraseña</string>
+    <string name="Btn_registrar">Registrar</string>
+    <string name="Tool_Registro">Registro</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563177651179",
+    "project_id": "visionartificial-36c88",
+    "storage_bucket": "visionartificial-36c88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563177651179:android:f0ca3e2a3c18a4798837ae",
+        "android_client_info": {
+          "package_name": "com.example.visionartificial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdbolzdxsfprt7h-8iW91UhD3_fSMWmFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
