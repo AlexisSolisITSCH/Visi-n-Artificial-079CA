@@ -17,7 +17,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#3D3E40"
+            android:background="#0DBBB7"
             app:title="Menu Perfil"
             app:titleTextColor="@android:color/white" />
 
@@ -40,7 +40,7 @@
         android:textStyle="bold"
         android:layout_width="273dp"
         android:layout_height="59dp"
-        android:backgroundTint="#12669B"
+        android:backgroundTint="#0FB9B6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

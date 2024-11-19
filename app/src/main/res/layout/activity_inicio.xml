@@ -15,15 +15,41 @@
         android:gravity="center"
         android:padding="10dp">
 
+        <TextView
+            android:text="@string/bienvenida"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/app_name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="221dp"
+            android:layout_height="235dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="register_animation.json"
+            app:lottie_imageAssetsFolder="asstes"
+            app:lottie_loop="true" />
+
         <Button
             android:id="@+id/Btn_ir_registros"
             android:text="@string/Btn_ir_registros"
+            android:backgroundTint="#0FB2AD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
             android:id="@+id/Btn_ir_logeo"
             android:text="@string/Btn_ir_logeo"
+            android:backgroundTint="#0FB2AD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
