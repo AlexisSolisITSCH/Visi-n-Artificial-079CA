@@ -3,9 +3,11 @@
     <string name="nombre_equipo">IA 079CA</string>
     <string name="bienvenida">BIENVENIDO A</string>
 
+    <!--Inicio-->
     <string name="Btn_ir_registros">Registrarme</string>
     <string name="Btn_ir_logeo">Ingresar</string>
 
+    <!--Registro-->
     <string name="R_Et_nombre_usuario">Nombre de usuario</string>
     <string name="R_Et_email">Correo electronico</string>
     <string name="R_Et_password">Contraseña</string>
@@ -13,9 +15,19 @@
     <string name="Btn_registrar">Registrar</string>
     <string name="Tool_Registro">Registro</string>
 
+    <!--Menu-->
+    <string name="Txt_informacion">Informacion</string>">
+    <string name="Txt_perfil">Perfil de Usuario</string>
+    <string name="Txt_nombre_usuario">Nombre:</string>
+    <string name="Tv_nombre_usuario">Nombre de usuario</string>
+    <string name="Txt_email">Correo:</string>
+    <string name="Tv_email">Correo electronico</string>
     <string name="Btn_Salir">Cerrar Sesion</string>
 
+    <!---Login-->
     <string name="L_Et_email">Correo Electronico</string>
     <string name="L_Et_password">Contraseña</string>
     <string name="Btn_login">Ingresar</string>
+
+
 </resources>
